@@ -1,14 +1,14 @@
 class Person:
     def __init__(self, firstName, lastName, age):
-        self.firstName = firstName
-        self.lastName = lastName
-        self.age = age
+        self.__firstName = firstName
+        self.__lastName = lastName
+        self.__age = age
 
     def getFirstName(self):
-        return self.firstName
+        return self.__firstName
 
     def getLastName(self):
-        return self.lastName
+        return self.__lastName
 
     def getAge(self):
-        return self.age
+        return self.__age
